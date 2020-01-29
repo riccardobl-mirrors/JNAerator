@@ -13,8 +13,9 @@
 		<artifactId>nativelibs4java-parent</artifactId>
     <version>1.10-SNAPSHOT</version>
 	</parent>
-
   <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
     <bridj.version>0.7.1-SNAPSHOT</bridj.version>
     <jna.version>4.1.0</jna.version>
     <rococoa.version>0.5</rococoa.version>
